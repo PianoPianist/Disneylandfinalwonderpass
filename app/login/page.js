@@ -58,7 +58,7 @@ export default function Login() {
     <div id="signindiv" className={styles.finclass}>
     </div>
     </div>
-    <button className={styles.cardButton}><span className="btnText">Mail</span></button>
+    {/* <button className={styles.cardButton}><span className="btnText">Mail</span></button> */}
     </div>
   )
 }
