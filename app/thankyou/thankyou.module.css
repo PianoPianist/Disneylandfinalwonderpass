@@ -1,0 +1,29 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gradient1 {
+    /* margin: auto; */
+    margin-top: 5vw;
+    background: -webkit-radial-gradient(farthest-side ,#6F3FFF, #FFC3FE, #BB85FE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    font-family: 'Mortend';
+    text-align: center;
+    width: 50%;
+}
+
+.para {
+    font-size: 25px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 50%;
+}

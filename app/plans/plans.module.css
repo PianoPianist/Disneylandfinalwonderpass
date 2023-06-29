@@ -1,0 +1,249 @@
+@import url('https://db.onlinewebfonts.com/c/6182518f7bc0b240b3a35699686e85d5?family=Mortend');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Poppins:wght@500&display=swap');
+.planHeading {
+    color: #FFF;
+    height: 2.635vw;
+    font-size: 1vw;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 2vw;
+    font-weight: 700;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
+}
+
+.line {
+    width: 50%;
+    height: 0.25vw;
+    background: white;
+    /* margin: auto; */
+    margin-top: 2vw !important;
+    margin-bottom: 2vw;
+    border-radius: 10vw;
+    display: block;
+}
+
+.dot1{
+    margin-right: 41%;
+    display: block;
+    background: #fff;
+    height: 1.5vw;
+    width: 1.5vw;
+    position: absolute;
+    border-radius: 100%;
+    margin-top: 1.4vw !important;
+}
+.dot2{
+    margin-right: auto;
+    display: block;
+    background: #191825;
+    border: 3px solid #fff;
+    height: 1.5vw;
+    width: 1.5vw;
+    position: absolute;
+    border-radius: 100%;
+    margin-top: 1.4vw !important;
+}
+.dot3{
+    margin-left: 41%;
+    display: block;
+    border: 3px solid #fff;
+    background: #191825;
+    height: 1.5vw;
+    width: 1.5vw;
+    position: absolute;
+    border-radius: 100%;
+    margin-top: 1.3vw !important;
+}
+
+.para {
+    position: absolute;
+    /* margin-top: 0vw; */
+    margin-top: -1.25vh;
+    margin-right: 41%;
+}
+.para2 {
+    position: absolute;
+    /* margin-top: 0vw; */
+    margin-top: -1.25vh;
+    margin-right: auto;
+}
+.para3 {
+    position: absolute;
+    /* margin-top: 0vw; */
+    margin-top: -1.25vh;
+    margin-left: 41%;
+}
+
+.plans {
+    margin-bottom: 5vw;
+    margin-top: 3vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    margin-right: 5vw;
+    display: flex;
+    border-radius: 30px;
+    background: rgba(134, 93, 255, 0.20);
+    backdrop-filter: blur(50px);
+    justify-content: center;
+    width: 21.962vw;
+    height: 32.283vw;
+    flex-shrink: 0;
+    border-radius: 30px;
+}
+
+.cardHeading {
+    position: absolute;
+    margin-top: 2vw;
+    color: #FFF;
+    font-size: 2.635vw;
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+
+.cardButton {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    flex-shrink: 0;
+    bottom: 1vw;
+    border-radius: 45px;
+    background: radial-gradient(609.86% 146.66% at 89.97% 21.88%, #E3A3C9 0%, #9548F5 50%, #6F3FFF 100%);
+}
+
+.btnText {
+    align-self: center;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10.057vw;
+    height: 3.783vw;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 1vw;
+    font-family: Poppins;
+    font-weight: 700;
+}
+
+#single {
+    margin-left: 5vw;
+    height: 27.283vw;
+}
+
+#single .cardHeading {
+    filter: blur(0.7px);
+    font-weight: 900;
+    color: #FFA8DC;
+}
+#duo {
+    height: 27.283vw;
+}
+#duo .cardHeading {
+    color: #E384FF;
+    text-align: center;
+    font-size: 36px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    filter: blur(0.7px);
+    line-height: normal;
+}
+#family {
+    flex: 2;
+}
+#family .cardHeading {
+    color: #A080FF;
+    font-size: 36px;
+    filter: blur(0.7px);
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.para1 {
+    position: absolute;
+    top: 6vw;
+    display: flex;
+    /* width: 179px;
+    height: 47px; */
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    background: -webkit-radial-gradient(farthest-side ,#6F3FFF, #FFC3FE, #BB85FE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    line-height: normal;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+.paraMoney {
+    position: absolute;
+    top: 7vw;
+    display: flex;
+    /* width: 179px;
+    height: 47px; */
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    background: -webkit-radial-gradient(farthest-side ,#6F3FFF, #FFC3FE, #BB85FE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    line-height: normal;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+
+/* .benefits {
+    position: absolute;
+    font-family: 'Poppins';
+    margin-top: 7vw !important;
+    margin-right: 11vw;
+    height: auto;
+} */
+.benefitsPara {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-family: 'Poppins';
+    /* margin-left: 2vw; */
+    /* margin-top: 9vw; */
+    /* height: auto    ; */
+}
+
+.ul {
+    display: flex;
+    height: 100%;
+    margin-top: -3.5vw;
+    width: 100%;
+    align-items: center;
+    /* margin-left: 6vw; */
+    /* justify-content: center; */
+}
+
+#benefitsFamily {
+    margin-left: -13vw;
+    margin-top: 10vw !important;
+}

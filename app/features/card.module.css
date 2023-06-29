@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Poppins:wght@500&display=swap');
+.container{
+    position: relative;
+    display: inline-block;
+    width: 40.264vw;
+    margin-right: 10px;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    }
+
+.image{
+    width:175px;
+    height: 175px;
+    float:left;
+    padding: 20px;
+
+}
+
+.title{
+    font-family:'Poppins',sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 1.5vw;
+
+}
+
+.text{
+    font-size: 22px;
+    width:35vw;
+    font-family:'Poppins',sans-serif;
+    /* display: inline-block; */
+    /* float: right?; */
+    /* clear: right; */
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "wonderpass",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "autoprefixer": "10.4.14",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase": "^9.23.0",
+    "jwt-decode": "^3.1.2",
+    "mongo": "^0.1.0",
+    "mongodb": "^5.6.0",
+    "mongoose": "^7.3.1",
+    "next": "^13.4.7",
+    "nodemon": "^2.0.22",
+    "postcss": "8.4.24",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-google-login": "^5.2.2",
+    "react-native-login": "^0.0.1-alpha.2",
+    "tailwindcss": "3.3.2",
+    "vanilla-tilt": "^1.8.0",
+    "yarn": "^1.22.19"
+  }
+}

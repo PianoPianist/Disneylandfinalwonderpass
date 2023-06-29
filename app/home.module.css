@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Poppins:wght@500&display=swap');
+@import url('https://db.onlinewebfonts.com/c/6182518f7bc0b240b3a35699686e85d5?family=Mortend');
+
+/* @font-face {
+    font-family: 'Mortend';
+    src: url('./mortend/otf/mortend-mortend-bold-700.otf') format('embedded-opentype'),
+      url('./mortend/woff/mortend-mortend-bold-700.woff') format('woff'),
+      url('./mortend/ttf/mortend-mortend-bold-700.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+} */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4vw;
+    margin-left: 8vw;
+    margin-right: 0vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.homeHeading {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-shrink: 0;
+    font-size: 6vw;
+    letter-spacing: 0.5vw;
+    font-family: 'Mortend', sans-serif;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.gradient1 {
+    /* color: radial-gradient(#6F3FFF, #FFC3FE, #BB85FE) !important; */
+    background: -webkit-radial-gradient(farthest-side ,#6F3FFF, #FFC3FE, #BB85FE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.homePara {
+    margin-top: 7.5vh;
+    width: 50%;
+    height: auto;
+    color: #FFF;
+    font-size: 1.647vw;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-family: 'Poppins', sans-serif;
+    line-height: 142%;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+.colorText {
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+.homePara:hover {
+    .colorText {
+        background: -webkit-radial-gradient(farthest-side ,#6F3FFF, #FFC3FE, #BB85FE);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transition-duration: 0.5s;
+    }
+}
+
+.image1 {
+    position: absolute;
+    rotate: 14.51deg;
+    bottom: 2vw;
+    /* z-index: -10; */
+    animation: animationImage1 0.5s 1;
+    animation-timing-function: linear;
+    transition: 0.5s;
+    /* rotate: -14.51deg; */
+    right: 2.5vw;
+    width: 15%;
+}
+
+.image1:hover {
+    transform: translateY(-30px);
+}
+.image2:hover {
+    transform: translateY(-30px);
+}
+.image3:hover {
+    transform: translateY(-30px);
+}
+
+.image2 {
+    position: absolute;
+    width: 15%;
+    right: 15vw;
+    transition: 0.5s;
+    bottom: 4vw;
+}
+.image3 {
+    rotate: -14.51deg;
+    position: absolute;
+    width: 15%;
+    transition: 0.5s;
+    right: 27.5vw;
+    animation: animationImage3 0.5s 1;
+    animation-timing-function: linear;
+    /* rotate: 14.51deg; */
+    /* z-index: -10; */
+    bottom: 2vw;
+}
+
+@keyframes hoverAnimation {
+    0% {
+        margin-top: 0;
+    }
+    100% {
+        margin-top: -5vw;
+    }
+}
+
+
+@keyframes animationImage1 {
+    0% {
+        right: 13vw;
+        rotate: 0deg;
+        bottom: 4vw;
+    }
+    100% {
+        right: 2.5vw;
+        rotate: 14.51deg;
+        bottom: 2vw;
+    }
+}
+
+@keyframes animationImage3 {
+    0% {
+        right: 13vw;
+        rotate: 0deg;
+        bottom: 4vw;
+    }
+    100% {
+        right: 27.5vw;
+        rotate: -14.51deg;
+        bottom: 2vw;
+    }
+}

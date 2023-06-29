@@ -1,0 +1,72 @@
+@import url('https://db.onlinewebfonts.com/c/6182518f7bc0b240b3a35699686e85d5?family=Mortend');
+.homeHeading {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-shrink: 0;
+    font-size: 5.5vw;
+    letter-spacing: 0.5vw;
+    font-family: 'Mortend', sans-serif;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
+}
+
+.images {
+    width: 30vw;
+    height: 10vw;
+    position: absolute;
+    right: 5vh;
+    display: flex;
+    z-index: -1;
+    flex-direction: row;
+    bottom: 15vw;
+    justify-content: flex-end;
+    animation: imgComeIn 1s 1;
+    transition: ease-in-out;
+    /* transition: all 0.5s; */
+}
+
+.image1 {
+
+    transition: all 0.5s;
+    margin-right: 3.5vw;
+    margin-top: 3vw;
+    margin-bottom: 1vh;
+    width: 39.312vw;
+    height: 16.471vw;
+    bottom: 1vh;
+}
+
+.homePara {
+    margin-top: 3vh;
+    display: flex;
+    width: 55.165vw;
+    height: 6.515vw;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 1.647vw;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-family: 'Poppins', sans-serif;
+    line-height: 142%;
+    animation: textComeIn 1s 1;
+    transition: ease-in-out;
+}
+
+@keyframes imgComeIn {
+    0% {
+        bottom: -30vw;
+    }
+    100% {
+        bottom: 15vw;
+    }
+}

@@ -1,0 +1,204 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    margin: 4vw 10vw;
+}
+
+.para {
+    margin-top: 1.5vw;
+    color: #FFF;
+    font-size: 22px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.paraBelow {
+    color: #FFF;
+    font-size: 15px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.cardDiv {
+    width: 695px;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 1vw;
+    flex-shrink: 0;
+    background: #865DFF33;
+}
+
+.card {
+    margin-left: 2vw;
+    width: 600px;
+    height: 30px;
+    background: none;
+    outline: none;
+}
+
+.image {
+    width: 40px;
+    height: 40px;
+    margin-left: 1.5vw;
+}
+
+.cvv {
+    margin-top: 1vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cardDiv1 {
+    width: 350px;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 2vw;
+    margin-left: 3.4vw;
+    flex-shrink: 0;
+    background: #865DFF33;
+}
+
+.paymentCard {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    width: 300px;
+    height: 350px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #2E2456;
+    backdrop-filter: blur(22.5px);
+    position: absolute;
+    right: 5vw;
+    top: 15vw;
+}
+
+.planName {
+    z-index: 10;
+    display: flex;
+    width: 262px;
+    height: 67px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 3vw;
+    font-family: Mortend;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+}
+.planThings {
+    position: absolute;
+    /* margin-top: 6vw;  */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: flex-start;
+    position: absolute;
+    left: 2vw;
+    top: 6vw;
+}
+.planThings2 {
+    position: absolute;
+    /* margin-top: 6vw;  */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: flex-end;
+    position: absolute;
+    left: -2vw;
+    top: 6vw;
+}
+
+.price {
+    /* position: absolute; */
+    font-family: 'Mortend';
+    font-size: 22px;
+    margin: 1vw;
+}
+.price2 {
+    /* position: absolute; */
+    text-align: end;
+    font-family: 'Mortend';
+    font-size: 22px;
+    margin: 1vw;
+}
+.price3 {
+    position: absolute;
+    bottom: 1vw;
+    left: 2vw;
+    text-align: start;
+    font-family: 'Mortend';
+    font-size: 22px;
+    margin: 1vw;
+}
+.price4 {
+    position: absolute;
+    bottom: 1vw;
+    right: 2vw;
+    text-align: end;
+    font-family: 'Mortend';
+    font-size: 22px;
+    margin: 1vw;
+}
+
+
+.hr {
+    align-self: center;
+    /* width: 289.002px; */
+    /* height: 0px; */
+    transform: rotate(0.198deg);
+    flex-shrink: 0;
+    position: absolute;
+    justify-self: center;
+    justify-items: center;
+    left: 0.5vw;
+    bottom: 6vw;
+    border-color: linear-gradient(#6F3FFF, #9747FF);
+}
+
+.payBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    right: 5vw;
+    bottom: -8vw;
+    flex-shrink: 0;
+    border-radius: 45px;
+    background: radial-gradient(609.86% 146.66% at 89.97% 21.88%, #E3A3C9 0%, #9548F5 50%, #6F3FFF 100%);
+}
+
+.btn {
+    display: flex;
+    width: 299px;
+    height: 158px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Mortend';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+}
