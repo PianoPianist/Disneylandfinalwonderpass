@@ -32,6 +32,7 @@ export default function Login() {
     console.log("yes")
     window.Email.send(config).then(()=>alert("Email sent suxsexfully"))
   }
+  window.location.href="/thankyou"
 
  }
   useEffect(()=>{

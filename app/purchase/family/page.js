@@ -56,7 +56,7 @@ export default function page() {
                 <h1 className={styles.price4}>$150</h1>
             </div>
             <div className={styles.payBtn}>
-                <a className={styles.btn} href="/thankyou" >Pay now</a>
+                <a className={styles.btn} href="/login" >Pay now</a>
             </div>
         </div>
     </div>

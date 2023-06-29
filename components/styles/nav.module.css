@@ -11,7 +11,8 @@
 }
 
 .logo {
-    width: 15vw;
+    /* width: 15vw; */
+    transform: scale(0.5);
     margin-top: -2vw;
     border-radius: 5%;
 }
