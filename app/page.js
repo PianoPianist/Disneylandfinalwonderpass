@@ -9,7 +9,7 @@ export default function Home() {
     return (
       <div>
         <link href="https://fonts.cdnfonts.com/css/mortend" rel="stylesheet" />
-        <Navbar state="home" />
+        {/* <Navbar state="home" /> */}
 
         <div className={styles.content}>
             <h1 className={styles.homeHeading}>
