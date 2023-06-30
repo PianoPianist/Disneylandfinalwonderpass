@@ -14,25 +14,25 @@ export default function Login() {
   //   console.log(result)
   // }
  function handlelogin(response){
-  // var emailsa = jwt_decode(response.credential)
+  var emailsa = jwt_decode(response.credential)
   // console.log(emailsa.email)
 
   var config={
-    Username:"prisha_bhatia@outlook.com",
-    Password:"CE1868FA5A9DA0EF0B3E6ED159671E7B6849",
+    Username:"prishabhatia.pb@yahoo.com",
+    Password:"A570A1DDD249A048402DBEEE5D1935AB3357",
     Host: "smtp.elasticemail.com",
     Port:2525,
-    To : "pianopianist.pp@gmail.com",
-    From : "prisha_bhatia@outlook.com",
+    To : emailsa.email.toString(),
+    From : "pianopianist.pp@gmail.com",
     Subject : "Payment Confirmation : Wonderpass",
-    Body : "And this is the body"
+    Body : "Congrats on your purchase of WonderPass! Here is the QR code that you will have to show at the entrance. <br> <br> <img src='https://cdn.discordapp.com/attachments/1122590461937328290/1123967488649072722/shared_QR.jpg'</img> <br> <br> Best Wishes, <br> Disney Team"
   }
 
   if (window.Email){
     console.log("yes")
-    window.Email.send(config).then(()=>alert("Email sent suxsexfully"))
+    window.Email.send(config).then(()=>alert("Email sent suxsexfully")).catch(()=>console.log("no"))
   }
-  window.location.href="/thankyou"
+  // window.location.href="/thankyou"
 
  }
   useEffect(()=>{

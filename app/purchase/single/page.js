@@ -47,13 +47,13 @@ export default function page() {
                     <h1 className={styles.price}>Addon</h1>
                 </div>
                 <div className={styles.planThings2} style={{marginLeft: "15vw"}}>
-                    <h1 className={styles.price2}>$85</h1>
+                    <h1 className={styles.price2}>$220</h1>
                     <h1 className={styles.price2}>$0</h1>
                     <h1 className={styles.price2}>$0</h1>
                 </div>
                 <img src="https://cdn.discordapp.com/attachments/1122590461937328290/1123917125367648387/image.png" className={styles.hr} />
                 <h1 className={styles.price3}>TOTAL</h1>
-                <h1 className={styles.price4}>$85</h1>
+                <h1 className={styles.price4}>$220</h1>
             </div>
             <div className={styles.payBtn}>
                 <a className={styles.btn} href="/login" >Pay now</a>
